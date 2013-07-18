@@ -1,11 +1,11 @@
 {
-	"name": "csxs",
+	"name": "lds-ext-build",
 	"version": "0.2.0",
 	"description": "A build tool for Adobe® Creative Suite® and Creative Cloud® extensions. Create, compile, debug, package, and deploy to S3 with ease!",
 	"keywords": ["adobe","creative suite","creative cloud","extension","plugin","csxs","build","zxp","photoshop","illustrator","indesign","cs"],
 	"homepage": "https://github.com/creativemarket/csxs",
-	"author": "Brian Reavis <brian@creativemarket.com>",
-	"bugs": "https://github.com/creativemarket/csxs/issues",
+	"author": "Ryan Foster <contact@ryanlfoster.com>",
+	"bugs": "https://github.com/ryanlfoster/lds-ext-build/issues",
 	"license": {
 		"name": "Apache License, Version 2.0",
 		"url": "http://www.apache.org/licenses/LICENSE-2.0.html"
@@ -15,14 +15,14 @@
 	"main": "./lib/csxs.js",
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/creativemarket/csxs.git"
+		"url": "https://github.com/ryanlfoster/lds-ext-build.git"
 	},
 	"dependencies": {
 		"async": "0.2.X",
 		"roto": "0.3.X",
 		"lodash": "1.1.X",
 		"optimist": "0.3.X",
-		"jsonschema": "git://github.com/brianreavis/jsonschema.git",
+		"jsonschema": "https://github.com/ryanlfoster/jsonschema.git",
 		"jsmin": "1.0.X"
 	},
 	"engines": {"node": ">= 0.8"},
